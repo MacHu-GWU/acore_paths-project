@@ -1,5 +1,5 @@
 
-.. image:: https://readthedocs.org/projects/acore-paths/badge/?version=latest
+.. .. image:: https://readthedocs.org/projects/acore-paths/badge/?version=latest
     :target: https://acore-paths.readthedocs.io/en/latest/
     :alt: Documentation Status
 
@@ -26,10 +26,10 @@
 
 ------
 
-.. image:: https://img.shields.io/badge/Link-Document-blue.svg
+.. .. image:: https://img.shields.io/badge/Link-Document-blue.svg
     :target: https://acore-paths.readthedocs.io/en/latest/
 
-.. image:: https://img.shields.io/badge/Link-API-blue.svg
+.. .. image:: https://img.shields.io/badge/Link-API-blue.svg
     :target: https://acore-paths.readthedocs.io/en/latest/py-modindex.html
 
 .. image:: https://img.shields.io/badge/Link-Install-blue.svg
@@ -50,7 +50,13 @@
 
 Welcome to ``acore_paths`` Documentation
 ==============================================================================
-Azerothcore 魔兽世界服务器上的文件目录结构定义. 可以作为一个 Python 库供其他运维工具使用, 从而避免了重复定义目录结构的麻烦, 避免了手写路径时可能出现的错误.
+Azerothcore 魔兽世界服务器上的文件目录结构定义. 你可以直接用 ``import acore_paths.api as acore_paths`` 来 import 这些路径, 并在业务代码中引用这些路径. 每一个路径都是一个 ``pathlib.Path`` 对象, 并且都是绝对路径. 该项目可以作为一个 Python 库供其他项目使用, 从而避免了重复定义目录结构的麻烦, 避免了手写路径时可能出现的错误, 一次发明, 到处使用.
+
+注:
+
+    本项目支持 Python3.4+, 没有任何依赖.
+
+`点击这里 <https://github.com/MacHu-GWU/acore_paths-project/blob/main/acore_paths/acore_paths.py>`_ 查看所有重要路径的定义.
 
 **Usages**
 

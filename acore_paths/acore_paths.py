@@ -40,7 +40,9 @@ path_azeroth_server_authserver_conf = dir_azeroth_server / "etc" / "authserver.c
 # ${HOME}/azeroth-server/etc/worldserver.conf
 path_azeroth_server_worldserver_conf = dir_azeroth_server / "etc" / "worldserver.conf"
 
-# 游戏服务器的数据文件, 主要是地图数据
+# 游戏服务器的数据文件, 主要是地图数据, 以下载 data.zip 后要把解压出来的文件放在这里
+# 最终如果有 ${HOME}/azeroth-server-data/maps/ 的目录就说明你解压的地方对了
+# 注意最终你要更新 worldserver.conf 里的 DataDir 字段, 填入 **绝对路径**
 # ${HOME}/azeroth-server-data/
 dir_azeroth_server_data = dir_home / "azeroth-server-data"
 
@@ -69,5 +71,7 @@ path_mod_eluna_conf_dist = dir_modules / "mod_LuaEngine.conf.dist"
 # ${HOME}/azeroth-server/etc/modules/mod_LuaEngine.conf.dist
 path_mod_eluna_conf = dir_modules / "mod_LuaEngine.conf"
 
-# Eluna 模组所有的 Lua 脚本的目录
+# Eluna 模组所有的 Lua 脚本的目录, 你的自定义 Lua 脚本都要放在这里
+# 注意最终你要更新 mod_LuaEngine.conf 里的 Eluna.ScriptPath 字段, 填入 **绝对路径**
+# ${HOME}/azeroth-server/bin/lua_scripts/
 dir_server_lua_scripts = dir_server_bin / "lua_scripts"

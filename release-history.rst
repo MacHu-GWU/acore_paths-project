@@ -15,6 +15,22 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.2.1 (2023-06-23)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- add the following paths:
+    - ``acore_paths.api.dir_git_repos``
+    - ``acore_paths.api.dir_acore_soap_app_project``
+    - ``acore_paths.api.path_acore_soap_app_cli``
+    - ``acore_paths.api.dir_acore_server_bootstrap_project``
+    - ``acore_paths.api.path_acore_server_bootstrap_cli``
+
+**Minor Improvements**
+
+- the ``dir_home`` now is hardcoded to ``/home/ubuntu``
+
+
 0.1.1 (2023-06-17)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**

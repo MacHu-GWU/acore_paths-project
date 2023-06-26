@@ -6,7 +6,7 @@ Todo: doc string here
 
 from pathlib import Path
 
-dir_home = Path.home()
+dir_home = Path("/home/ubuntu")
 
 # ------------------------------------------------------------------------------
 # Azerothcore Server
@@ -75,3 +75,26 @@ path_mod_eluna_conf = dir_modules / "mod_LuaEngine.conf"
 # 注意最终你要更新 mod_LuaEngine.conf 里的 Eluna.ScriptPath 字段, 填入 **绝对路径**
 # ${HOME}/azeroth-server/bin/lua_scripts/
 dir_server_lua_scripts = dir_server_bin / "lua_scripts"
+
+# ------------------------------------------------------------------------------
+# Server Ops
+# 跟运维相关的路径
+# ------------------------------------------------------------------------------
+# 存放所有的运维脚本的 Git 仓库的位置
+dir_git_repos = dir_home / "git_repos"
+
+# 用于远程运行 GM 命令的执行代理项目的 Git 仓库所在位置
+# https://github.com/MacHu-GWU/acore_soap_app-project
+dir_acore_soap_app_project = dir_git_repos / "acore_soap_app-project"
+
+# GM 命令执行代理的命令行工具所在位置
+path_acore_soap_app_cli = dir_acore_soap_app_project / ".venv" / "bin" / "acsoap"
+
+# 游戏服务器 EC2 的引导任务自动化项目的 Git 仓库所在位置
+# https://github.com/MacHu-GWU/acore_server_bootstrap-project
+dir_acore_server_bootstrap_project = dir_git_repos / "acore_server_bootstrap-project"
+
+# 引导任务自动化的命令行工具所在位置
+path_acore_server_bootstrap_cli = (
+    dir_acore_server_bootstrap_project / ".venv" / "bin" / "acorebs"
+)

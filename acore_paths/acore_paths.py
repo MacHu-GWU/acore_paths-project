@@ -90,6 +90,13 @@ dir_acore_soap_app_project = dir_git_repos / "acore_soap_app-project"
 # GM 命令执行代理的命令行工具所在位置
 path_acore_soap_app_cli = dir_acore_soap_app_project / ".venv" / "bin" / "acsoap"
 
+# 用于远程运行 SQL 的 DB App 项目的 Git 仓库所在位置
+# https://github.com/MacHu-GWU/acore_db_app-project
+dir_acore_db_app_project = dir_git_repos / "acore_db_app-project"
+
+# DB App 的命令行工具所在位置
+path_acore_db_app_cli = dir_acore_db_app_project / ".venv" / "bin" / "acdb"
+
 # 游戏服务器 EC2 的引导任务自动化项目的 Git 仓库所在位置
 # https://github.com/MacHu-GWU/acore_server_bootstrap-project
 dir_acore_server_bootstrap_project = dir_git_repos / "acore_server_bootstrap-project"

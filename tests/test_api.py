@@ -23,6 +23,8 @@ def test():
     _ = api.dir_git_repos
     _ = api.dir_acore_soap_app_project
     _ = api.path_acore_soap_app_cli
+    _ = api.dir_acore_db_app_project
+    _ = api.path_acore_db_app_cli
     _ = api.dir_acore_server_bootstrap_project
     _ = api.path_acore_server_bootstrap_cli
 

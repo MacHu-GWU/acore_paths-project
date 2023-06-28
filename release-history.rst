@@ -15,6 +15,15 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.3.1 (2023-06-28)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- add the following paths:
+    - ``acore_paths.api.dir_acore_db_app_project``
+    - ``acore_paths.api.path_acore_db_app_cli``
+
+
 0.2.1 (2023-06-23)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**

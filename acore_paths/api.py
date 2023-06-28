@@ -17,5 +17,7 @@ from .acore_paths import dir_server_lua_scripts
 from .acore_paths import dir_git_repos
 from .acore_paths import dir_acore_soap_app_project
 from .acore_paths import path_acore_soap_app_cli
+from .acore_paths import dir_acore_db_app_project
+from .acore_paths import path_acore_db_app_cli
 from .acore_paths import dir_acore_server_bootstrap_project
 from .acore_paths import path_acore_server_bootstrap_cli

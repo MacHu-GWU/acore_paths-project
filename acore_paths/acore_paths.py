@@ -4,9 +4,9 @@
 Todo: doc string here
 """
 
-from pathlib import Path
+from pathlib import PurePosixPath
 
-dir_home = Path("/home/ubuntu")
+dir_home = PurePosixPath("/home/ubuntu")
 
 # ------------------------------------------------------------------------------
 # Azerothcore Server

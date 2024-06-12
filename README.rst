@@ -54,7 +54,7 @@ Azerothcore 魔兽世界服务器上的文件目录结构定义. 你可以直接
 
 注:
 
-    本项目支持 Python3.4+, 没有任何依赖.
+    本项目支持 Python3.8+, 没有任何依赖.
 
 `点击这里 <https://github.com/MacHu-GWU/acore_paths-project/blob/main/acore_paths/acore_paths.py>`_ 查看所有重要路径的定义.
 

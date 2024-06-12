@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Azerothcore World of Warcraft Server File / Folder structure definition
+Azerothcore World of Warcraft Server File / Folder structure definition.
 """
 
 from ._version import __version__

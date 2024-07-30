@@ -3,7 +3,7 @@
     :target: https://acore-paths.readthedocs.io/en/latest/
     :alt: Documentation Status
 
-.. image:: https://github.com/MacHu-GWU/acore_paths-project/workflows/CI/badge.svg
+.. image:: https://github.com/MacHu-GWU/acore_paths-project/actions/workflows/main.yml/badge.svg
     :target: https://github.com/MacHu-GWU/acore_paths-project/actions?query=workflow:CI
 
 .. image:: https://codecov.io/gh/MacHu-GWU/acore_paths-project/branch/main/graph/badge.svg
@@ -23,6 +23,9 @@
 
 .. image:: https://img.shields.io/badge/STAR_Me_on_GitHub!--None.svg?style=social
     :target: https://github.com/MacHu-GWU/acore_paths-project
+
+.. image:: https://img.shields.io/badge/Acore_Doc--None.svg?style=social&logo=readthedocs
+    :target: https://acore-doc.readthedocs.io/en/latest/
 
 ------
 

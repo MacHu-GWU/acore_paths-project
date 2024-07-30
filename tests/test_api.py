@@ -21,8 +21,13 @@ def test():
     _ = api.path_mod_eluna_conf
     _ = api.dir_server_lua_scripts
     _ = api.dir_git_repos
+    _ = api.dir_acore_soap_agent_project
+    _ = api.path_acore_soap_agent_cli
     _ = api.dir_acore_soap_app_project
     _ = api.path_acore_soap_app_cli
+    _ = api.dir_acore_server_monitoring_measurement_project
+    _ = api.path_log_to_ec2_tag_cron_job_script
+    _ = api.path_measure_worldserver_cron_job_script
     _ = api.dir_acore_db_app_project
     _ = api.path_acore_db_app_cli
     _ = api.dir_acore_server_bootstrap_project

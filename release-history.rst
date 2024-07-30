@@ -15,6 +15,22 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.4.1 (2024-07-29)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- add the following paths:
+    - ``acore_paths.api.dir_acore_soap_agent_project``
+    - ``acore_paths.api.path_acore_soap_agent_cli``
+    - ``acore_paths.api.dir_acore_server_monitoring_measurement_project``
+    - ``acore_paths.api.path_log_to_ec2_tag_cron_job_script``
+    - ``acore_paths.api.path_measure_worldserver_cron_job_script``
+
+**Minor Improvements**
+
+- Add Python3.11, 3.12 support.
+
+
 0.3.2 (2023-07-17)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Bugfixes**

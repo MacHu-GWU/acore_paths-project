@@ -84,11 +84,41 @@ dir_server_lua_scripts = dir_server_bin / "lua_scripts"
 dir_git_repos = dir_home / "git_repos"
 
 # 用于远程运行 GM 命令的执行代理项目的 Git 仓库所在位置
+# https://github.com/MacHu-GWU/acore_soap_agent-project
+dir_acore_soap_agent_project = dir_git_repos / "acore_soap_agent-project"
+
+# GM 命令执行代理的命令行工具所在位置
+path_acore_soap_agent_cli = (
+    dir_acore_soap_agent_project / ".venv" / "bin" / "acoresoapagent"
+)
+
+# todo: decommission acore_soap_app
+# 用于远程运行 GM 命令的执行代理项目的 Git 仓库所在位置
 # https://github.com/MacHu-GWU/acore_soap_app-project
 dir_acore_soap_app_project = dir_git_repos / "acore_soap_app-project"
 
 # GM 命令执行代理的命令行工具所在位置
 path_acore_soap_app_cli = dir_acore_soap_app_project / ".venv" / "bin" / "acsoap"
+
+# 用于在 Worldserver EC2 上运行的 server monitoring 脚本项目的 Git 仓库所在位置
+# https://github.com/MacHu-GWU/acore_server_monitoring_measurement-project
+dir_acore_server_monitoring_measurement_project = (
+    dir_git_repos / "acore_server_monitoring_measurement-project"
+)
+
+# 执行定期采集 Worldserver 状态并把数据写入到 AWS EC2 Tag 的脚本所在位置
+path_log_to_ec2_tag_cron_job_script = (
+    dir_acore_server_monitoring_measurement_project
+    / "cron_job"
+    / "run_log_to_ec2_tag_cron_job.py"
+)
+
+# 执行定期采集 Worldserver 状态并把数据写入到 DynamoDB 的脚本所在位置
+path_measure_worldserver_cron_job_script = (
+    dir_acore_server_monitoring_measurement_project
+    / "cron_job"
+    / "run_measure_worldserver_cron_job.py"
+)
 
 # 用于远程运行 SQL 的 DB App 项目的 Git 仓库所在位置, 请阅读项目文档了解这个项目的作用.
 # https://github.com/MacHu-GWU/acore_db_app-project
@@ -102,7 +132,7 @@ path_acore_db_app_cli = dir_acore_db_app_project / ".venv" / "bin" / "acdb"
 # https://github.com/MacHu-GWU/acore_server_bootstrap-project
 dir_acore_server_bootstrap_project = dir_git_repos / "acore_server_bootstrap-project"
 
-# 引导任务自动化的命令行工具所在位置. 这个命令行工具可以在
+# 引导任务自动化的命令行工具所在位置.
 path_acore_server_bootstrap_cli = (
     dir_acore_server_bootstrap_project / ".venv" / "bin" / "acorebs"
 )
